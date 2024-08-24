@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: 60vh;
+    border: 2px solid black;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 32% 32% 32%; 
+    /* it mean 32% width of one box and now it has 3colum, it can set height 32% also*/
+    grid-template-rows: 45% 45%;
+    /* it mean 45% height of one row and now it has 2row */
+    /* gap: 20px; */
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+.container .box{
+    /* margin: auto; */
+    background-color: red;
+}
